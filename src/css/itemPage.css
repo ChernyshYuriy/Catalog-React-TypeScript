@@ -1,0 +1,43 @@
+.item-page {
+  margin-top: 20px;
+  font-size: clamp(16px, 1.7vw, 20px);
+}
+.item-page__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.item-page__title {
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.characteristics-group {
+    border: 1px solid #fff;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin: 20px ;
+
+}
+
+.characteristics-group__item {
+  border: 1px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.characteristics-group___title {
+  text-transform: capitalize;
+  border-right: 2px solid #fff;
+  padding: 10px;
+}
+
+.characteristics-group___value {
+  padding: 0px 10px;
+}

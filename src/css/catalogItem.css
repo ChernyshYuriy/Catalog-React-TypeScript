@@ -1,0 +1,28 @@
+.catalog-item {
+  width: max-content;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.catalog-item__image {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.catalog-item__title {
+  text-align: center;
+  font-size: clamp(20px, 1.7vw, 26px);
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 770px) {
+  .catalog-item__image {
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .catalog-item__image {
+    max-width: 200px;
+  }
+}

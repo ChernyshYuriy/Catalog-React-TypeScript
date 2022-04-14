@@ -27,6 +27,7 @@ const CatalogFilter: React.FC = () => {
   useEffect(() => {
     console.log(filterActiveParams, 1232);
     activateFilter();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filterActiveParams]);
 
   const changeCheckboxHandler = async (
@@ -37,7 +38,6 @@ const CatalogFilter: React.FC = () => {
   ) => {
     await changeActiveFilter(!status, id, keyParameter);
   };
-  //
   return (
     <React.Fragment>
       <div className="filter-container" ref={ref}>
